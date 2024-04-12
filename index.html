@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='UTF-8'/>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
+        <meta http-equiv='X-UA-Compatible' content='ie=edge'/>
+        <title>F1.</title>
+        <script src="index.js"></script>
+        <link rel="stylesheet" href="style.css"/>
+        <h1>Welcome to<img src="./pics/Formula one Wallpaper.jpeg"></h1>
+    </head>
+    <body>
+        <div id="main">
+            <div id="topp">
+                <div id="top">
+                    <h2>What would you like to know?</h2>
+                </div>
+                <form id="form">
+                    <label for="season">SEASON</label>
+                    <input id="season" type="text" name="season">
+                    <label for="type">SELECT TYPE</label>
+                    <select id="type" name="type">
+                        <option value="drivers">Drivers</option>
+                        <option value="race">Race</option>
+                        <option value="constructors">constructors</option>
+                        <option value="circuits">circuits</option>
+                    </select>
+
+                    <label for="race">RACE NUMBER</label>   
+                    <input id="race" type="text" name="number">
+                    <label for="'additional">SPECIFICATIONS</label>   
+                    <input id="additional" type="text" name="additional">
+                    <button id="button" type="submit">SUBMIT</button>
+                </form>
+            </div>
+            <div id="results-list">
+                <h2 >HERE ARE YOUR RESULTS</h2>
+                <p id="details"></p>
+            </div>
+
+
+        </div>
+    <script src="index.js"></script>
+    </body>
+</html>

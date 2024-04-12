@@ -1,0 +1,49 @@
+h1{
+    text-decoration: aqua;
+    color:black;
+    background-color:rgb(202, 10, 10);
+    overflow: hidden;
+    text-decoration: underline;
+    text-align: center;
+}
+html{
+    background-color: rgb(182, 81, 81);
+    
+}
+label{
+    display: block;margin-top: 5px;
+    text-align: center;
+    
+}
+#submit{
+    display: block;
+    padding: 2px;
+    margin-top: 20px;
+   
+}
+#form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    
+}
+img{
+    width: 400px;
+    height: 300px;
+    display:flex; 
+    margin: 0 auto;
+    
+}
+#topp{
+    background-image:url(./pics/【F1】\ 新しいロゴをF1アブダビGPの決勝日に発表へ.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+#results-list{
+    background-color: rgb(3, 3, 3);
+    color: white;
+    background-image: url(./pics/Descargar\ fondos\ de\ pantalla\ Nuevo\ logotipo\ de\ la\ Fórmula\ 1\,\ nuevo\ logo\,\ F1\,\ textura\ de\ cuero\ libre_\ Imágenes\ fondos\ de\ descarga\ gratuita.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
